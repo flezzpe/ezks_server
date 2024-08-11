@@ -8,7 +8,11 @@
 
 			for dead_loop = 1, #bitch do
 				if bitch[dead_loop][4] == 'Enter your key to access exclusive features.' then
-					bitch[dead_loop][4] = 'patched loader'
+					bitch[dead_loop][4] = 'ezkeysystem v5 patched loader | @java.dll'
+				end
+				
+				if bitch[dead_loop][4] == 'Check Your Key' then
+					bitch[dead_loop][4] = 'Nurysium llc'
 				end
 				
 				print(bitch[dead_loop][4], bitch[dead_loop][3], bitch[dead_loop])
